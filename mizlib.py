@@ -25,14 +25,14 @@ try:
 
 except ImportError:
     import subprocess
-    subprocess.check_call(["python", '-m', 'pip', 'install', 'base58'])
-    subprocess.check_call(["python", '-m', 'pip', 'install', 'ecdsa'])
-    subprocess.check_call(["python", '-m', 'pip', 'install', 'simplebloomfilter'])
-    subprocess.check_call(["python", '-m', 'pip', 'install', 'bitarray==1.9.2'])
-    subprocess.check_call(["python", '-m', 'pip', 'install', 'requests'])
-    subprocess.check_call(["python", '-m', 'pip', 'install', 'bit'])
-    subprocess.check_call(["python", '-m', 'pip', 'install', 'numpy'])
-    subprocess.check_call(["python", '-m', 'pip', 'install', 'trotter'])
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'base58'])
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'ecdsa'])
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'simplebloomfilter'])
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'bitarray==1.9.2'])
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'requests'])
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'bit'])
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'numpy'])
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'trotter'])
     import base58
     import ecdsa
     from bloomfilter import BloomFilter, ScalableBloomFilter, SizeGrowthRate
