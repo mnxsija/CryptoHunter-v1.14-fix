@@ -1,6 +1,6 @@
 # Tkinter-Power
 
-New Version1.13 Recovery Tools and Fixes
+Version 1.14 Recovery 
 
 ![image](https://user-images.githubusercontent.com/88630056/206264660-a0d4ab62-a4e8-4543-960a-92388a226cb9.png)
 
@@ -8,15 +8,12 @@ Bitcoin private generator made with tkinter. Looks for Bitcoin in a nice GUI int
 
 Many functions and tools. Calculator games 16x16 Visual Hex.
 
-Bitcoin&amp;Crypto  Tkinter  GUI Hunter
-
-MADE IN 🐍 PYTHON 🐍
+Bitcoin&amp;Crypto Tkinter GUI Hunter
 
 Microsoft C++ Build Tools required on Windows 
 https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
 ## download and install 
-
 ![image](https://user-images.githubusercontent.com/88630056/200416296-e268a869-5353-432e-b572-82ef66400f97.png)
 
 
