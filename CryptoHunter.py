@@ -30,8 +30,8 @@ try:
     
 except ImportError:
     import subprocess
-    subprocess.check_call(["python", '-m', 'pip', 'install', 'psutil'])
-    subprocess.check_call(["python", '-m', 'pip', 'install', 'requests'])
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'psutil'])
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'requests'])
     import psutil
     import requests     
 
